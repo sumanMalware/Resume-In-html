@@ -1,0 +1,89 @@
+* {
+    padding: 1px;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url('Arus.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 10%;
+
+
+}
+
+#resume{
+    text-align: center;
+    
+}
+
+h1 {
+    background-color: rgb(27, 91, 128);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+
+}
+
+.name {
+    text-align: left;
+    width: 50%;
+    margin-left: 5%;
+
+}
+a#github{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+a#github:hover{
+    color:rgb(67, 182, 39);
+    font-size: 13px;  
+
+}
+a#linkdin{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+a#linkdin:hover{
+    color:rgb(67, 182, 39);
+    font-size: 13px;  
+}
+#downloadresume{
+    color: #fff;
+    /* font-size: 16px; */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: rgb(27, 91, 128);
+    border: 2px solid rgb(27, 91, 128);
+    text-decoration: none;
+    }
+
+    #downloadresume:hover{
+        background: transparent;
+    border-color:rgb(27, 91, 128) ;
+    color: rgb(27, 91, 128);
+    }
+
+.arus {
+    text-align: center;
+    color: rgb(27, 91, 128);
+
+}
+
+.sub {
+    color: rgb(27, 91, 128);
+}
+
+#position {
+    color: rgb(27, 91, 128);
+}
